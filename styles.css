@@ -109,12 +109,14 @@ button.theme {
 }
 
 
-.link.active {
+.link.active, 
+.dark .theme {
     color: var(--bg-primary);
     background: var(--color-link);
 }
 
-.dark .link.active {
+.dark .link.active,
+.dark .theme {
     color: var(--color-white);
 }
 
@@ -133,7 +135,7 @@ button.theme {
     margin-top: 160px;
 }
 
-.pray h1, .pray h3 {
+.pray h1 {
     text-align: center;
 }
 
