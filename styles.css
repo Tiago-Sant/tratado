@@ -29,12 +29,18 @@ body {
     color: var(--color-primary);
 }
 
+b, 
+.pray-title {
+    color: var(--border-content);
+}
+
 div,
 p,
 li,
 ul,
 nav {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 header,
@@ -58,6 +64,7 @@ button.theme {
     margin-left: 40px;
     margin-right: 20px;
     max-width: 120px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content-wrapper {
@@ -106,6 +113,7 @@ button.theme {
     font-weight: 700;
     flex-grow: 1;
     color: var(--color-white);
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -137,6 +145,11 @@ button.theme {
 
 .pray h1 {
     text-align: center;
+}
+
+h3.pray-title {
+    border-bottom: 1px solid var(--border-content);
+    padding-bottom: 5px;
 }
 
 .pray {
@@ -174,6 +187,10 @@ button.theme {
     text-align: center;
     margin: 0;
     font-size: 14px;
+}
+
+.dark .book-wrapper p {
+    color: var(--border-content);
 }
 
 .img-footer-wrapper {
