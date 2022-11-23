@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-
 :root {
     --color-primary: #222;
     --color-white: #F8F8F8;
@@ -13,15 +11,17 @@
     --color-primary: #F8F8F8;
     --bg-primary: #222;
     --bg-secondary: #222;
-    --color-link: #2779a7;
-
+    --color-link: #49bdff;
+    --bg-link: #222;
+    --border-content: #49bdff;
+    --title-midle-color: #5FE5FF;
 }
 
 body {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
 }
 
 .page-wrapper {
@@ -32,6 +32,7 @@ body {
 b, 
 .pray-title {
     color: var(--border-content);
+    font-family: 'RobotoBold', sans-serif;
 }
 
 div,
@@ -40,7 +41,7 @@ li,
 ul,
 nav {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoRegular', sans-serif;
 }
 
 header,
@@ -64,7 +65,6 @@ button.theme {
     margin-left: 40px;
     margin-right: 20px;
     max-width: 120px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .content-wrapper {
@@ -110,29 +110,24 @@ button.theme {
     border-radius: 10px;
     width: 100px;
     text-align: center;
-    font-weight: 700;
     flex-grow: 1;
     color: var(--color-white);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 
 .link.active, 
 .dark .theme {
-    color: var(--bg-primary);
-    background: var(--color-link);
-}
-
-.dark .link.active,
-.dark .theme {
-    color: var(--color-white);
+    color: var(--color-link);
+    background: var(--bg-link);
 }
 
 .header-title {
     margin: 0;
     padding: 10px;
-    font-weight: 700;
     text-align: left;
+    font-size: 18px;
+    font-family: 'RobotoBold', sans-serif;
 }
 
 .link:hover {
@@ -147,9 +142,10 @@ button.theme {
     text-align: center;
 }
 
-h3.pray-title {
+h2.pray-title {
     border-bottom: 1px solid var(--border-content);
     padding-bottom: 5px;
+    font-size: 18px;
 }
 
 .pray {
@@ -175,12 +171,8 @@ h3.pray-title {
 
 .footer-content p {
     text-align: center;
-    font-style: italic;
+    font-family: 'RobotoBoldItalic', sans-serif;
     color: var(--color-white);
-}
-
-.quote {
-    font-weight: 700;
 }
 
 .book-wrapper p {
